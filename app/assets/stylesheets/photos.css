@@ -30,14 +30,18 @@
 }
 
 .messages {
-  background-color: #253141;
+  background-color: #ffff;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: scroll;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .message {
   margin: 10px 0 0 0;
+  
 }
 
 .upper-message{
@@ -69,4 +73,20 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+}
+
+.item-img {
+  width: 50vh;
+  height: 50vh;
+}
+
+.star-btn {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  height: 2vh;
+  width: 2vh;
+  margin-right: 0.5vw;
 }

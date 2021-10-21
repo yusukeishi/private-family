@@ -21,8 +21,6 @@
 | ------------------ | ---------- | ----------- |
 |title               | string     | null: false |
 |description         | text       | null: false |
-|year                | integer    | null: false |
-|month               | integer    | null: false |
 |user                | references | null: false, foreign_key: true |
 
 ### Association
